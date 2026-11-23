@@ -14,7 +14,7 @@
 
   const projects = [
     {
-      name: '2D Horror Game',
+      name: 'Headless Hotel',
       type: 'Game Development',
       description: 'Worked on enemy design and behaviors',
       date: '2024',
@@ -83,7 +83,7 @@
   const updates = [
     {
       date: '11.22.2026',
-      title: 'Game Development',
+      title: 'STRIX',
       description: 'Currently working on personal project'
     }
   ]
@@ -136,7 +136,7 @@
 
     <header>
       <a class="brand" @click="activeTab = 'Profile'">
-        Magllama
+        Magllama.moe
       </a>
     </header>
 
@@ -356,7 +356,6 @@
 
         <div class="modal-footer">
           <span>{{ selectedProject.date }}</span>
-          <span>PROJECT DETAILS / 001</span>
         </div>
 
       </div>
